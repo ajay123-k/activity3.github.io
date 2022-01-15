@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand{
+    font-size: 35px !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+/* home page css  */
+.custom-navbar{
+    background-color: #082032;
+    padding: 8px;
+}
+.custom-navbar a{
+    color: #d1cccc ;
+    
+    font-size: 25px;
+    font-weight: bold;
+    margin:0px 15px ;
+    height: 50px;
+}
+.nav-link:hover{
+    color: #ffffff !important;
+    border-bottom: 1px solid yellow;
+
+}
+
+.active{
+    color: #ffffff !important;
+    border: none;
+}
+.active:hover{
+    color: #ffffff !important;
+    border: none;
+}
+.carousel-inner,.carousel-item{
+    height: 65vh;
+}
+
+/* home page css  */
+
+
+/* contact page css  */
+
+.contact-page{
+    min-height: 75vh;
+}
+
+i{
+    color: rgb(114, 114, 245);
+}
+
+label{
+    font-size: 18px;
+    color: black;
+
+}
+label::after{
+    content: "*";
+    color: red;
+    font-weight: bold;
+}
+
+input , textarea{
+    margin: 5px 0px;
+}
+
+
+
+
+
+
+
+/* contact page css  */
